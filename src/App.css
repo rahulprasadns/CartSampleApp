@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  text-align: center;
+  background-color: #F8BBD0;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 80%;
+  height: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 15px 2px #90CAF9;
+  font-size:16mm;
+  border-radius: 15px;
+  -webkit-text-size-adjust:none;
+-ms-text-size-adjust:none;
+-moz-text-size-adjust:none;
+text-size-adjust:none;
+}
+
+.ShoppingContainer {
+  height: 100%;
+  background-color: #BBDEFB;
+  width: 70%;
+  min-width: 200px;
+  display: flex;
+  border-radius: 15px 0 0 15px;
+}
+
+.PaymentDetailsCaontainer{
+  width: 30%;
+  background-color: lightyellow;
+  border-radius: 0 15px 15px 0;
+}

@@ -1,0 +1,45 @@
+.headerTitle{
+    font-size: 0.5em;
+    font-weight: 300;
+    font: bold;
+    text-align: left;
+    width: 90%;
+}
+
+.shoppingCart{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.foodItems{
+    font-size: 0.4em;
+}
+
+.finalPriceContainer{
+    align-items: center;
+    display: flex;
+    font-size: 0.3em;
+    margin-top: auto;
+    flex-direction: row;
+    align-items: left;
+    color: tomato;
+}
+
+.noItemsDiv{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+.finalPrice{
+    margin-left: 220px;
+    font-weight: 700;
+    color:#1565C0;
+    
+}
+
+.continueShoppingArrow{
+    color: tomato;
+    font-size: 1.5em;
+}
